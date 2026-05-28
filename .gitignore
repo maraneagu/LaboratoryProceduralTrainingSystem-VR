@@ -1,0 +1,35 @@
+# Unity generated folders
+Thesis/Library/
+Thesis/Temp/
+Thesis/Obj/
+Thesis/Logs/
+Thesis/UserSettings/
+Thesis/.utmp/
+
+# Builds
+Thesis/Build/
+Thesis/Builds/
+
+# Huge imported asset packages / samples
+Thesis/Assets/Packages/
+Thesis/Assets/Packages.meta
+Thesis/Assets/Samples/
+Thesis/Assets/Samples.meta
+*.unitypackage
+
+# Archives / installers
+*.zip
+*.rar
+*.7z
+
+# IDE / Visual Studio
+.vs/
+.idea/
+*.csproj
+*.sln
+*.user
+*.userprefs
+
+# OS files
+.DS_Store
+Thumbs.db
