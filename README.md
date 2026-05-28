@@ -29,7 +29,7 @@ The application places users inside a virtual chemistry laboratory where they ca
 The environment was designed to support procedural chemistry training tasks that are sequential, object-based, and accuracy-sensitive.
 
 <p align="center">
-  <img src="README%20Images/laboratory_environment.png" width="600" alt="Virtual chemistry laboratory environment">
+  <img src="README%20Images/laboratory_environment.png" width="600" alt="Virtual Chemistry Laboratory Environment">
 </p>
 
 Users interact with the environment using laboratory objects such as beakers, reaction tubes, bottles, pipettes, spatulas, stirring rods, powders, and heating equipment. The system supports both free object manipulation and procedure-specific action checking.
@@ -138,15 +138,15 @@ The system includes nine main interaction tools used across the chemistry proced
 
 <table>
   <tr>
-    <th width="180">Tool</th>
-    <th width="180">Preview</th>
+    <th width="200">Tool</th>
+    <th width="200">Preview</th>
     <th>Description</th>
   </tr>
 
   <tr>
     <td><b>Beaker</b></td>
     <td align="center">
-      <img src="README%20Images/tool_beaker.png" height="90" alt="Beaker">
+      <img src="README%20Images/beaker.png" height="110" width="75" alt="Beaker">
     </td>
     <td>Used as a container for liquids, powders, and mixed substances.</td>
   </tr>
@@ -154,7 +154,7 @@ The system includes nine main interaction tools used across the chemistry proced
   <tr>
     <td><b>Reaction Tube</b></td>
     <td align="center">
-      <img src="README%20Images/tool_reaction_tube.png" height="90" alt="Reaction Tube">
+      <img src="README%20Images/reaction_tube.png" height="110" width="75" alt="Reaction Tube">
     </td>
     <td>Used for small-scale reactions and heating steps.</td>
   </tr>
@@ -162,7 +162,7 @@ The system includes nine main interaction tools used across the chemistry proced
   <tr>
     <td><b>Pipette</b></td>
     <td align="center">
-      <img src="README%20Images/tool_pipette.png" height="90" alt="Pipette">
+      <img src="README%20Images/pipette.png" height="110" width="75" alt="Pipette">
     </td>
     <td>Used to aspirate and dispense liquids.</td>
   </tr>
@@ -170,7 +170,7 @@ The system includes nine main interaction tools used across the chemistry proced
   <tr>
     <td><b>Spatula</b></td>
     <td align="center">
-      <img src="README%20Images/tool_spatula.png" height="90" alt="Spatula">
+      <img src="README%20Images/spatula.png" height="110" width="75" alt="Spatula">
     </td>
     <td>Used to transfer powder into containers.</td>
   </tr>
@@ -178,7 +178,7 @@ The system includes nine main interaction tools used across the chemistry proced
   <tr>
     <td><b>Stirring Rod</b></td>
     <td align="center">
-      <img src="README%20Images/tool_stirring_rod.png" height="90" alt="Stirring Rod">
+      <img src="README%20Images/stirring_rod.png" height="110" width="75" alt="Stirring Rod">
     </td>
     <td>Used to mix liquids and powders inside containers.</td>
   </tr>
@@ -186,7 +186,7 @@ The system includes nine main interaction tools used across the chemistry proced
   <tr>
     <td><b>Powder</b></td>
     <td align="center">
-      <img src="README%20Images/tool_powder.png" height="90" alt="Powder">
+      <img src="README%20Images/powder.png" height="110" width="75" alt="Powder">
     </td>
     <td>Represents solid substances used in the procedures.</td>
   </tr>
@@ -194,7 +194,7 @@ The system includes nine main interaction tools used across the chemistry proced
   <tr>
     <td><b>Bottle / Nozzle</b></td>
     <td align="center">
-      <img src="README%20Images/tool_nozzle.png" height="90" alt="Bottle With a Nozzle">
+      <img src="README%20Images/nozzle.png" height="110" width="75" alt="Bottle With a Nozzle">
     </td>
     <td>Used to fill containers with liquid reagents.</td>
   </tr>
@@ -202,7 +202,7 @@ The system includes nine main interaction tools used across the chemistry proced
   <tr>
     <td><b>Electric Heater</b></td>
     <td align="center">
-      <img src="README%20Images/tool_electric_heater.png" height="90" alt="Electric Heater">
+      <img src="README%20Images/electric_heater.png" height="110" width="75" alt="Electric Heater">
     </td>
     <td>Used to heat reaction tubes during selected procedures.</td>
   </tr>
