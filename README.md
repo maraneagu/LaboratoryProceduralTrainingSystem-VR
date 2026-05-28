@@ -29,7 +29,7 @@ The application places users inside a virtual chemistry laboratory where they ca
 The environment was designed to support procedural chemistry training tasks that are sequential, object-based, and accuracy-sensitive.
 
 <p align="center">
-  <img src="README%20Images/laboratory_environment.png" width="800" alt="Virtual chemistry laboratory environment">
+  <img src="README%20Images/laboratory_environment.png" width="600" alt="Virtual chemistry laboratory environment">
 </p>
 
 Users interact with the environment using laboratory objects such as beakers, reaction tubes, bottles, pipettes, spatulas, stirring rods, powders, and heating equipment. The system supports both free object manipulation and procedure-specific action checking.
@@ -107,25 +107,25 @@ The system includes four organic chemistry procedures. Each procedure was implem
 ### 1. Iodoform Test
 
 <p align="center">
-  <img src="README%20Images/experiment_iodoform_test.png" width="700" alt="Iodoform Test in VR">
+  <img src="README%20Images/experiment_iodoform_test.png" width="600" alt="Iodoform Test in VR">
 </p>
 
 ### 2. Brady's Test
 
 <p align="center">
-  <img src="README%20Images/experiment_brady_test.png" width="700" alt="Brady's Test in VR">
+  <img src="README%20Images/experiment_brady_test.png" width="600" alt="Brady's Test in VR">
 </p>
 
 ### 3. Fehling's Test
 
 <p align="center">
-  <img src="README%20Images/experiment_fehling_test.png" width="700" alt="Fehling's Test in VR">
+  <img src="README%20Images/experiment_fehling_test.png" width="600" alt="Fehling's Test in VR">
 </p>
 
 ### 4. Benedict's Test
 
 <p align="center">
-  <img src="README%20Images/experiment_benedict_test.png" width="700" alt="Benedict's Test in VR">
+  <img src="README%20Images/experiment_benedict_test.png" width="600" alt="Benedict's Test in VR">
 </p>
 
 Each procedure tracks the current expected action, the user action, correctness, mistakes, action duration, and total procedure completion time.
@@ -136,17 +136,77 @@ Each procedure tracks the current expected action, the user action, correctness,
 
 The system includes nine main interaction tools used across the chemistry procedures.
 
-| Tool               | Preview                                                                         | Description                                                     |
-| ------------------ | ------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| Beaker             | <img src="README%20Images/tool_beaker.png" width="160">             | Used as a container for liquids, powders, and mixed substances. |
-| Reaction Tube      | <img src="README%20Images/tool_reaction_tube.png" width="160">      | Used for small-scale reactions and heating steps.               |
-| Reaction Tube Rack | <img src="README%20Images/tool_reaction_tube_rack.png" width="160"> | Holds reaction tubes during procedures.                         |
-| Pipette            | <img src="README%20Images/tool_pipette.png" width="160">            | Used to aspirate and dispense liquids.                          |
-| Spatula            | <img src="README%20Images/tool_spatula.png" width="160">            | Used to transfer powder into containers.                        |
-| Stirring Rod       | <img src="README%20Images/tool_stirring_rod.png" width="160">       | Used to mix liquids and powders inside containers.              |
-| Powder             | <img src="README%20Images/tool_powder.png" width="160">             | Represents solid substances used in the procedures.             |
-| Bottle / Nozzle    | <img src="README%20Images/tool_bottle_nozzle.png" width="160">      | Used to fill containers with liquid reagents.                   |
-| Electric Heater    | <img src="README%20Images/tool_electric_heater.png" width="160">    | Used to heat reaction tubes during selected procedures.         |
+<table>
+  <tr>
+    <th width="180">Tool</th>
+    <th width="180">Preview</th>
+    <th>Description</th>
+  </tr>
+
+  <tr>
+    <td><b>Beaker</b></td>
+    <td align="center">
+      <img src="README%20Images/tool_beaker.png" height="90" alt="Beaker">
+    </td>
+    <td>Used as a container for liquids, powders, and mixed substances.</td>
+  </tr>
+
+  <tr>
+    <td><b>Reaction Tube</b></td>
+    <td align="center">
+      <img src="README%20Images/tool_reaction_tube.png" height="90" alt="Reaction tube">
+    </td>
+    <td>Used for small-scale reactions and heating steps.</td>
+  </tr>
+
+  <tr>
+    <td><b>Pipette</b></td>
+    <td align="center">
+      <img src="README%20Images/tool_pipette.png" height="90" alt="Pipette">
+    </td>
+    <td>Used to aspirate and dispense liquids.</td>
+  </tr>
+
+  <tr>
+    <td><b>Spatula</b></td>
+    <td align="center">
+      <img src="README%20Images/tool_spatula.png" height="90" alt="Spatula">
+    </td>
+    <td>Used to transfer powder into containers.</td>
+  </tr>
+
+  <tr>
+    <td><b>Stirring Rod</b></td>
+    <td align="center">
+      <img src="README%20Images/tool_stirring_rod.png" height="90" alt="Stirring rod">
+    </td>
+    <td>Used to mix liquids and powders inside containers.</td>
+  </tr>
+
+  <tr>
+    <td><b>Powder</b></td>
+    <td align="center">
+      <img src="README%20Images/tool_powder.png" height="90" alt="Powder">
+    </td>
+    <td>Represents solid substances used in the procedures.</td>
+  </tr>
+
+  <tr>
+    <td><b>Bottle / Nozzle</b></td>
+    <td align="center">
+      <img src="README%20Images/tool_nozzle.png" height="90" alt="Bottle nozzle">
+    </td>
+    <td>Used to fill containers with liquid reagents.</td>
+  </tr>
+
+  <tr>
+    <td><b>Electric Heater</b></td>
+    <td align="center">
+      <img src="README%20Images/tool_electric_heater.png" height="90" alt="Electric heater">
+    </td>
+    <td>Used to heat reaction tubes during selected procedures.</td>
+  </tr>
+</table>
 
 ---
 
