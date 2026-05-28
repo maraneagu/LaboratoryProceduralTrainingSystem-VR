@@ -450,5 +450,7 @@ These files are not necessary for reviewing the project structure, scripts, thes
 ## Author
 
 **Mara Teodora Neagu**
-Master's Thesis, Department of Computer Science - Human-Centered Computing
+
+Master's Thesis, Department of Computer Science
+
 University of Copenhagen (DIKU), 2026
