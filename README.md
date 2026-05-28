@@ -16,9 +16,9 @@ The thesis investigates how these support mechanisms influence procedural perfor
 
 The system was designed both as:
 
-* a working VR chemistry training prototype;
-* an experimental platform for comparing different training support conditions;
-* a data-logging system for collecting procedural performance metrics during a user study.
+* A working VR chemistry training prototype;
+* An experimental platform for comparing different training support conditions;
+* A data-logging system for collecting procedural performance metrics during a user study.
 
 ---
 
@@ -64,10 +64,10 @@ The project supports four training conditions, created by combining guidance and
 
 This structure allowed the thesis to compare:
 
-* performance with and without visual guidance;
-* performance with and without validation feedback;
-* the combined effect of both support mechanisms;
-* how users behave when support is reduced or removed.
+* Performance with and without visual guidance;
+* Performance with and without validation feedback;
+* The combined effect of both support mechanisms;
+* How users behave when support is reduced or removed.
 
 ---
 
@@ -79,11 +79,11 @@ When guidance is enabled, the system waits for a short delay before displaying c
 
 The guidance system includes:
 
-* delayed guidance display;
-* step-specific target highlighting;
-* automatic updates when the expected action changes;
-* prevention of repeated guidance for dismissed steps;
-* support for procedures involving multiple containers or targets.
+* Delayed guidance display;
+* Step-specific target highlighting;
+* Automatic updates when the expected action changes;
+* Prevention of repeated guidance for dismissed steps;
+* Support for procedures involving multiple containers or targets.
 
 ---
 
@@ -154,7 +154,7 @@ The system includes nine main interaction tools used across the chemistry proced
   <tr>
     <td><b>Reaction Tube</b></td>
     <td align="center">
-      <img src="README%20Images/tool_reaction_tube.png" height="90" alt="Reaction tube">
+      <img src="README%20Images/tool_reaction_tube.png" height="90" alt="Reaction Tube">
     </td>
     <td>Used for small-scale reactions and heating steps.</td>
   </tr>
@@ -178,7 +178,7 @@ The system includes nine main interaction tools used across the chemistry proced
   <tr>
     <td><b>Stirring Rod</b></td>
     <td align="center">
-      <img src="README%20Images/tool_stirring_rod.png" height="90" alt="Stirring rod">
+      <img src="README%20Images/tool_stirring_rod.png" height="90" alt="Stirring Rod">
     </td>
     <td>Used to mix liquids and powders inside containers.</td>
   </tr>
@@ -194,7 +194,7 @@ The system includes nine main interaction tools used across the chemistry proced
   <tr>
     <td><b>Bottle / Nozzle</b></td>
     <td align="center">
-      <img src="README%20Images/tool_nozzle.png" height="90" alt="Bottle nozzle">
+      <img src="README%20Images/tool_nozzle.png" height="90" alt="Bottle With a Nozzle">
     </td>
     <td>Used to fill containers with liquid reagents.</td>
   </tr>
@@ -202,7 +202,7 @@ The system includes nine main interaction tools used across the chemistry proced
   <tr>
     <td><b>Electric Heater</b></td>
     <td align="center">
-      <img src="README%20Images/tool_electric_heater.png" height="90" alt="Electric heater">
+      <img src="README%20Images/tool_electric_heater.png" height="90" alt="Electric Heater">
     </td>
     <td>Used to heat reaction tubes during selected procedures.</td>
   </tr>
@@ -216,12 +216,12 @@ The application was designed to support a participant-based user study.
 
 The study flow includes:
 
-1. participant identification;
+1. Participant identification;
 2. VR tutorial and interaction familiarization;
-3. procedure briefing before each experiment;
-4. completion of four chemistry procedures under different support conditions;
-5. automatic performance logging;
-6. post-task questionnaire collection.
+3. Procedure briefing before each experiment;
+4. Completion of four chemistry procedures under different support conditions;
+5. Automatic performance logging;
+6. Post-task questionnaire collection.
 
 Before each experiment, users enter a briefing scene where they can review the procedure steps on a clipboard. After reviewing the steps, they begin the actual experiment and perform the procedure from memory, with support depending on the assigned condition.
 
@@ -233,18 +233,18 @@ The system automatically logs procedural performance data during each experiment
 
 The logged data includes:
 
-* participant ID;
-* procedure name;
-* support condition;
-* guidance enabled/disabled;
-* validation enabled/disabled;
-* total procedure duration;
-* number of correct actions;
-* number of incorrect actions;
-* action-level duration;
-* expected action;
-* performed action;
-* action correctness.
+* Participant ID;
+* Procedure name;
+* Support condition;
+* Guidance enabled/disabled;
+* Validation enabled/disabled;
+* Total procedure duration;
+* Number of correct actions;
+* Number of incorrect actions;
+* Action-level duration;
+* Expected action;
+* Performed action;
+* Action correctness.
 
 This data was used for statistical analysis of task performance across the four experimental conditions.
 
@@ -256,14 +256,14 @@ After each procedure, participants completed a post-task questionnaire.
 
 The evaluation included measures related to:
 
-* perceived usefulness of guidance;
-* perceived usefulness of validation;
-* autonomy;
-* confidence;
-* perceived performance;
-* workload;
-* user experience;
-* dependence on visual guidance.
+* Perceived usefulness of guidance;
+* Perceived usefulness of validation;
+* Autonomy;
+* Confidence;
+* Perceived performance;
+* Workload;
+* User experience;
+* Dependence on visual guidance.
 
 The questionnaire data complemented the logged performance data and helped evaluate not only whether users performed better, but also how they experienced the different support mechanisms.
 
@@ -273,13 +273,13 @@ The questionnaire data complemented the logged performance data and helped evalu
 
 This project contributes:
 
-* a VR chemistry laboratory prototype for procedural training;
-* an implementation of delayed, step-specific visual guidance;
-* an implementation of immediate action validation feedback;
-* four procedural organic chemistry experiments in VR;
-* a condition-based experimental system for comparing guidance and validation;
-* a logging system for action-level and procedure-level performance analysis;
-* a user-study setup for evaluating performance, autonomy, workload, and perceived support.
+* A VR chemistry laboratory prototype for procedural training;
+* An implementation of delayed, step-specific visual guidance;
+* An implementation of immediate action validation feedback;
+* Four procedural organic chemistry experiments in VR;
+* A condition-based experimental system for comparing guidance and validation;
+* A logging system for action-level and procedure-level performance analysis;
+* A user-study setup for evaluating performance, autonomy, workload, and perceived support.
 
 The thesis findings suggest that validation feedback was especially valuable as a support mechanism because it helped users understand whether their actions were correct while still allowing them to act independently. Visual guidance was useful for directing attention and reducing confusion, but its role is most interesting when treated as adaptive support rather than continuous instruction.
 
@@ -295,13 +295,13 @@ Each experiment has a dedicated procedure tracker responsible for managing the c
 
 Procedure trackers handle:
 
-* current expected action;
-* user action registration;
-* correct and incorrect action counting;
-* action progression;
-* completion detection;
-* reset behavior;
-* communication with validation and logging systems.
+* Current expected action;
+* User action registration;
+* Correct and incorrect action counting;
+* Action progression;
+* Completion detection;
+* Reset behavior;
+* Communication with validation and logging systems.
 
 ### Guidance Management
 
@@ -309,12 +309,12 @@ The guidance system identifies which objects should be highlighted for the curre
 
 It handles:
 
-* delayed guidance display;
-* target selection;
-* cue clearing;
-* guidance dismissal;
-* guidance refresh when the action changes;
-* condition-based activation and deactivation.
+* Delayed guidance display;
+* Target selection;
+* Cue clearing;
+* Guidance dismissal;
+* Guidance refresh when the action changes;
+* Condition-based activation and deactivation.
 
 ### Validation Feedback
 
@@ -322,10 +322,10 @@ The validation system receives information from the procedure tracker and displa
 
 It handles:
 
-* correct action feedback;
-* incorrect action feedback;
-* target object outline selection;
-* condition-based activation and deactivation.
+* Correct action feedback;
+* Incorrect action feedback;
+* Target object outline selection;
+* Condition-based activation and deactivation.
 
 ### Timing and Logging
 
@@ -333,13 +333,13 @@ The logging system records both procedure-level and action-level data.
 
 It tracks:
 
-* procedure start and end time;
-* action start and end time;
-* total duration;
-* action duration;
-* correct and incorrect actions;
-* participant ID;
-* condition configuration.
+* Procedure start and end time;
+* Action start and end time;
+* Total duration;
+* Action duration;
+* Correct and incorrect actions;
+* Participant ID;
+* Condition configuration.
 
 ---
 
@@ -449,6 +449,6 @@ These files are not necessary for reviewing the project structure, scripts, thes
 
 ## Author
 
-**Mara Neagu**
-Master's Thesis, Department of Computer Science
-University of Copenhagen, 2026
+**Mara Teodora Neagu**
+Master's Thesis, Department of Computer Science - Human-Centered Computing
+University of Copenhagen (DIKU), 2026
