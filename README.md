@@ -1,6 +1,6 @@
 # Adaptive Guidance and Validation in VR
 
-*Enhancing Procedural Performance Through Dynamic Visual Cues in a VR Chemistry Laboratory*
+*Enhancing Procedural Performance Through Dynamic Visual Cues*
 
 **Master's Thesis – University of Copenhagen, Department of Computer Science (2026)**
 
