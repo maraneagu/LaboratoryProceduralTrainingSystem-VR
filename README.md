@@ -29,7 +29,7 @@ The application places users inside a virtual chemistry laboratory where they ca
 The environment was designed to support procedural chemistry training tasks that are sequential, object-based, and accuracy-sensitive.
 
 <p align="center">
-  <img src="README%20Images/laboratory_environment.png" width="600" alt="Virtual Chemistry Laboratory Environment">
+  <img src="README%20Images/laboratory_environment.png" width="700" alt="Virtual Chemistry Laboratory Environment">
 </p>
 
 Users interact with the environment using laboratory objects such as beakers, reaction tubes, bottles, pipettes, spatulas, stirring rods, powders, and heating equipment. The system supports both free object manipulation and procedure-specific action checking.
@@ -44,8 +44,8 @@ Virtual reality offers a controlled and repeatable alternative for practicing th
 
 This thesis explores this balance by comparing two forms of support:
 
-* **visual guidance**, which helps users identify what to interact with next;
-* **action validation**, which provides feedback on whether the performed action was correct.
+* **Visual guidance**, which helps users identify what to interact with next;
+* **Action validation**, which provides feedback on whether the performed action was correct.
 
 The goal was not only to evaluate whether support improves performance, but also to understand how different forms of support affect user independence, confidence, perceived usefulness, and overall experience.
 
@@ -71,6 +71,18 @@ This structure allowed the thesis to compare:
 
 ---
 
+## Experiment Briefing
+
+Before each procedure, participants entered a briefing setup where the laboratory objects and instruction materials for the upcoming experiment were presented. This allowed participants to review the procedure before starting the task in VR.
+
+<p align="center">
+  <img src="README%20Images/briefing_overview.png" width="700" alt="Experiment briefing overview">
+</p>
+
+The briefing phase helped separate instruction review from the active procedure execution. After reviewing the procedure, participants completed the experiment from memory, with guidance and validation enabled or disabled depending on the assigned condition.
+
+---
+
 ## Visual Guidance System
 
 The visual guidance system highlights the next relevant object or interaction target in the current procedure.
@@ -85,6 +97,29 @@ The guidance system includes:
 * Prevention of repeated guidance for dismissed steps;
 * Support for procedures involving multiple containers or targets.
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="README%20Images/guidance_iodoform.png" width="420" alt="Visual guidance in the Iodoform Test"><br>
+      <b>Iodoform Test</b>
+    </td>
+    <td align="center">
+      <img src="README%20Images/guidance_brady.png" width="420" alt="Visual guidance in Brady's Test"><br>
+      <b>Brady's Test</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="README%20Images/guidance_fehling.png" width="420" alt="Visual guidance in Fehling's Test"><br>
+      <b>Fehling's Test</b>
+    </td>
+    <td align="center">
+      <img src="README%20Images/guidance_benedict.png" width="420" alt="Visual guidance in Benedict's Test"><br>
+      <b>Benedict's Test</b>
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## Action Validation System
@@ -93,10 +128,64 @@ The action validation system checks whether the user performed the expected acti
 
 When validation is enabled, the system provides immediate visual feedback:
 
-* **green outline** for correct actions;
-* **red outline** for incorrect actions.
+* **Green outline** for correct actions;
+* **Red outline** for incorrect actions.
 
 This feedback allows users to understand whether their action was successful without requiring constant step-by-step instruction.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="README%20Images/validation_iodoform.png" width="420" alt="Validation feedback in the Iodoform Test"><br>
+      <b>Iodoform Test</b>
+    </td>
+    <td align="center">
+      <img src="README%20Images/validation_brady.png" width="420" alt="Validation feedback in Brady's Test"><br>
+      <b>Brady's Test</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="README%20Images/validation_fehling.png" width="420" alt="Validation feedback in Fehling's Test"><br>
+      <b>Fehling's Test</b>
+    </td>
+    <td align="center">
+      <img src="README%20Images/validation_benedict.png" width="420" alt="Validation feedback in Benedict's Test"><br>
+      <b>Benedict's Test</b>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Tutorial Process
+
+Before completing the experimental procedures, participants went through a tutorial phase to become familiar with the VR controls and laboratory interactions. The tutorial introduced controller input, object grabbing, laboratory tools, and basic interaction mechanics such as using bottles, beakers, powders, reaction tubes, and the electric heater.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="README%20Images/tutorial_overview.png" width="420" alt="Tutorial overview"><br>
+      <b>Tutorial Overview</b>
+    </td>
+    <td align="center">
+      <img src="README%20Images/grab_instruments_bottle.png" width="420" alt="Tutorial interaction cards for grabbing, instruments, and bottles"><br>
+      <b>Grab, Instruments, and Bottle Interaction</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="README%20Images/nozzle_beaker_powder.png" width="420" alt="Tutorial interaction cards for nozzle, beaker, and powder"><br>
+      <b>Nozzle, Beaker, and Powder Interaction</b>
+    </td>
+    <td align="center">
+      <img src="README%20Images/reaction_tube_electric_heater.png" width="420" alt="Tutorial interaction cards for reaction tube and electric heater"><br>
+      <b>Reaction Tube and Electric Heater Interaction</b>
+    </td>
+  </tr>
+</table>
+
+The tutorial ensured that participants understood the basic VR interaction mechanics before the study tasks began.
 
 ---
 
@@ -107,25 +196,25 @@ The system includes four organic chemistry procedures. Each procedure was implem
 ### 1. Iodoform Test
 
 <p align="center">
-  <img src="README%20Images/experiment_iodoform_test.png" width="600" alt="Iodoform Test in VR">
+  <img src="README%20Images/experiment_iodoform_test.png" width="650" alt="Iodoform Test in VR">
 </p>
 
 ### 2. Brady's Test
 
 <p align="center">
-  <img src="README%20Images/experiment_brady_test.png" width="600" alt="Brady's Test in VR">
+  <img src="README%20Images/experiment_brady_test.png" width="650" alt="Brady's Test in VR">
 </p>
 
 ### 3. Fehling's Test
 
 <p align="center">
-  <img src="README%20Images/experiment_fehling_test.png" width="600" alt="Fehling's Test in VR">
+  <img src="README%20Images/experiment_fehling_test.png" width="650" alt="Fehling's Test in VR">
 </p>
 
 ### 4. Benedict's Test
 
 <p align="center">
-  <img src="README%20Images/experiment_benedict_test.png" width="600" alt="Benedict's Test in VR">
+  <img src="README%20Images/experiment_benedict_test.png" width="650" alt="Benedict's Test in VR">
 </p>
 
 Each procedure tracks the current expected action, the user action, correctness, mistakes, action duration, and total procedure completion time.
@@ -134,7 +223,7 @@ Each procedure tracks the current expected action, the user action, correctness,
 
 ## Interaction Tools
 
-The system includes nine main interaction tools used across the chemistry procedures.
+The system includes eight main interaction tools used across the chemistry procedures.
 
 <table>
   <tr>
@@ -223,7 +312,7 @@ The study flow includes:
 5. Automatic performance logging;
 6. Post-task questionnaire collection.
 
-Before each experiment, users enter a briefing scene where they can review the procedure steps on a clipboard. After reviewing the steps, they begin the actual experiment and perform the procedure from memory, with support depending on the assigned condition.
+Before each experiment, users entered a briefing scene where they could review the procedure steps on a clipboard. After reviewing the steps, they began the actual experiment and performed the procedure from memory, with support depending on the assigned condition.
 
 ---
 
@@ -428,9 +517,9 @@ This repository excludes generated Unity folders and large imported third-party 
 * `Temp/`
 * `Obj/`
 * `Builds/`
-* large imported asset package folders
-* Unity sample folders
-* `.unitypackage` installer files
+* Large imported asset package folders;
+* Unity sample folders;
+* `.unitypackage` installer files.
 
 These files are not necessary for reviewing the project structure, scripts, thesis implementation, or core system logic.
 
